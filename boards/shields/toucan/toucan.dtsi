@@ -5,7 +5,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <physical_layouts.dtsi>
 
-//#define TOUCAN_WIN_MODE
+//#define TOUCAN_WIN_MODE 
+#define MOUSE 6
 
 / {
     chosen {
