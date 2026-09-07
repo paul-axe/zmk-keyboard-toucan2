@@ -10,9 +10,10 @@
 
 #define BASE 0
 #define NUM  1
-#define SYM  2
-#define FUN  3
-#define EXT  4
+#define NAV  2
+#define SYM  3
+#define FUN  4
+#define EXT  5
 
 
 / {
@@ -81,7 +82,6 @@
                                                               &kp ESC &mo SYM &kp BSPC     &kp RET &lt_nav NAV SPACE &mo EXT
             >;
         };
-
 
         num {
             display-name = "NUM";
