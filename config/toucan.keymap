@@ -35,13 +35,6 @@
             bindings = <&mo>, <&kp>;
         };
 
-        td_space_nav: td_space {
-            compatible = "zmk,behavior-tap-dance";
-            #binding-cells = <0>;
-            tapping-term-ms = <110>;
-            bindings = <&lt_nav NAV SPACE>, <&kp SPACE>; // hold, tap, double_tap
-        };
-
         td_ent_fun: td_ent_fun {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
