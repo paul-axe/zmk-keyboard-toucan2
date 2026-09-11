@@ -56,7 +56,7 @@
         rdy-gpios = <&gpio0 2 GPIO_ACTIVE_HIGH>;
 
         enable-power-management;
-        idle-sleep; // provides maximal power savings but when ZMK is idle (i.e. you haven't used keyboard in 30secs) the touchpad will not work.  not recommended.
+        // idle-sleep; // provides maximal power savings but when ZMK is idle (i.e. you haven't used keyboard in 30secs) the touchpad will not work.  not recommended.
         // timeout-lp1 = <3>; // 60s timeout before entering lp2 state (20 secs per unit) (default was 20s)
         report-rate-lp2 = <640>; // 640ms report rate in LP2 state means 55uA draw rather than default 160ms 174uA draw
         scroll-angle = <30>; // The default angle (about 47 deg) is too big on toucan2 I think
@@ -71,9 +71,9 @@
         two-finger-tap;
         single-tap;
         press-and-hold;
-        //swipes;
-        /* three-finger-swipe; */
-        /* three-finger-swipe-throttle-ms = <1200>; */
+        // swipes;
+        // three-finger-swipe;
+        // three-finger-swipe-throttle-ms = <1200>;
         switch-xy;
         invert-scroll-x;
         invert-scroll-y;
